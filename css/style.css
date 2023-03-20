@@ -56,7 +56,6 @@
 }
 
 
-
 /* chi siamo */
 
 .text p{
@@ -88,6 +87,46 @@
 
     MEDIA QUERY 
 ________________ */
+
+@media screen and (min-width:480px) and (max-width:768px){
+ .container:not(.testimonial .container, .started.container, .footer.container){
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ 
+ .bigCard{
+    margin-bottom: 1rem;
+    width: 65%;
+    margin-top: 0;
+ }
+
+ .card{
+    height:calc(100vw / 1.5);
+    margin-top: 0;
+    width: 30%; 
+ }
+
+ #big{
+    height: calc(100vw / 1.5);
+    margin-bottom: 1rem;
+ }
+
+ .benefits{
+    width: calc(100% / 2 - 1rem);
+ }
+
+.text{
+    width: 60%;
+}
+
+.partner{
+ width: 40%;
+ margin-top: 2rem;
+}
+
+
+}
 
 @media screen and (min-width: 768px) {
     .hamburger {
@@ -131,7 +170,7 @@ ________________ */
     height: 3rem;
 }
 
-.bigCard{
+/* .bigCard{
     height: 610px;
     border: 1px solid black;
 }
@@ -140,7 +179,7 @@ ________________ */
     height: 360px;
     border: 1px solid black;
 
-}
+} */
 
 .planning{
     height: 630px;
