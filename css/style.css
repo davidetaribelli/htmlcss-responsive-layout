@@ -88,11 +88,14 @@
     MEDIA QUERY 
 ________________ */
 
+
+/* TABLET */
+
 @media screen and (min-width:480px) and (max-width:768px){
  .container:not(.testimonial .container, .started.container, .footer.container){
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
  }
  
  .bigCard{
@@ -125,8 +128,9 @@ ________________ */
  margin-top: 2rem;
 }
 
-
 }
+
+/* DESKTOP */
 
 @media screen and (min-width: 768px) {
     .hamburger {
@@ -141,6 +145,45 @@ ________________ */
         margin: 0.5rem;
     }
 
+    .container:not(.testimonial .container, .started.container, .footer.container) {
+        flex-direction: row;    
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .container{
+        padding: 4rem 24.5rem;
+        gap: 0.5em;
+    }
+
+    .bigCard{
+        padding: 1rem;
+        width:66%;
+        height:343px;
+        margin-bottom: 1rem;
+    }
+
+    #big{
+        margin-top: 3rem;
+    }
+    .card{
+        width: calc(100% / 3 - 0.5em);
+        height: 343px;
+        margin-top: 0;
+        padding: 1rem;
+    }
+
+    .planning{
+        width: 45%;
+    }
+
+    .app{
+        width: 45%;
+    }
+
+    .benefits{
+        width: calc(100% / 3 - 0.5em);
+    }
 }
 
 
@@ -166,9 +209,6 @@ ________________ */
         DEBUG
 *******************/
 
-.navBar{
-    height: 3rem;
-}
 
 /* .bigCard{
     height: 610px;
@@ -187,7 +227,7 @@ ________________ */
 }
 
 .app{
-    height: 616px;
+    height: 630px;
     background-color: blue;
 }
 
