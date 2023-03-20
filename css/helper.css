@@ -43,7 +43,7 @@
 .bgColorGreyForOverflow{background-color: #f5f5f5;}
 .bgColorDarkRed{background-color: #d5001f;}
 .bgColorDarkBlue{background-color: #0d2481;}
-.bgColorYellow{background-color: #ffd830;}
+.bgColorYellow{background-color: #fdc15f;}
 .bgColorLightGrey{background-color: lightgray;}
 .bgColorViolet{background-color: #9792e4;}
 
@@ -53,7 +53,9 @@
 .colorBlack{color: black;}
 .colorWhite{color: white;}
 .colorViolet{color: #9792e4;}
+.colorYellow{color: #fdc15f;}
 
+.font-400{font-weight: 400;}
 .font-700{font-weight: 700;}
 .font-900 {font-weight: 900;}
 
@@ -75,3 +77,9 @@
 .textDecorationNot{text-decoration: none;}
 
 .pointer{cursor: pointer;}
+
+.fontSize1-5rem{font-size:1.5rem}
+.fontSize2rem{font-size: 2rem;}
+.fontSize2-75rem{font-size: 2.75rem;}
+
+.line-heigte1-5rem{line-height: 1.5rem;}

@@ -10,6 +10,13 @@
     font-size: 2rem;
 }
 
+#buttonNav{
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-style: none;
+}
+
+
 /* MAIN */
 
 
@@ -36,29 +43,66 @@
 
 /* testimonial */
 
+
 .partners{
     border-radius: 20px;
 }
 
 /* benefici */
 
+
 .benefits{
     border-radius: 20px;
 }
 
+
+
 /* chi siamo */
 
+.text p{
+    line-height: 2rem;
+}
 
 /* inizia */
 
 .started{
     justify-content: center; 
+    align-items: center;
+}
+
+.buttonStarted{
+    padding: 1.5rem;
+    font-size: 1rem;
+    border-radius: 30px;
+    border-style: none;
 }
 
 /* FOOTER */
 
+.footer {
+    justify-content: center;
+    align-items: center;
+}
 
+/* _______________
 
+    MEDIA QUERY 
+________________ */
+
+@media screen and (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+
+    .link.none {
+        display: inline-block;
+    }
+
+    .link.none a {
+        margin: 0.5rem;
+    }
+
+}
 
 
 

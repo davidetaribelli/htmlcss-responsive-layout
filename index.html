@@ -13,11 +13,18 @@
     <!-- header -->
     <header>
         <div class="navBar col-100 flex row bgColorBlue colorWhite">
-            <div class="logo">
+            <div class="logo pointer">
                 <img src="./img/logo.png" alt="logo">
             </div>
-            <div class="link">
+            <div class="link hamburger pointer">
                 <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="link none">
+                <a class="textDecorationNot colorWhite pointer" href="#">Planning</a>
+                <a class="textDecorationNot colorWhite pointer" href="#">Testimonials</a>
+                <a class="textDecorationNot colorWhite pointer" href="#">Features</a>
+                <a class="textDecorationNot colorWhite pointer" href="About Us"></a>
+                <button id="buttonNav" class="pointer">Get Started</button>
             </div>
         </div>
     </header>
@@ -56,10 +63,10 @@
             </div>
         </section>
         <!-- testimonial -->
-        <section>
+        <section class="testimonial">
             <div class="container flex column">
-                <h2 class="center marginTop3rem">TESTIMONIALS</h2>
-                <h1 class="center marginTop2rem marginBottom2rem colorViolet">We are committed expert partners</h1>
+                <span class="center marginTop3rem">TESTIMONIALS</span>
+                <h1 class="center fontSize2rem marginTop2rem marginBottom2rem colorViolet">We are committed expert partners</h1>
                 <p class="center marginBottom3rem">
                     We place huge value on strong relationships and have seen the benefit they bring to our business. Customer feedback is vital in helping us to get it right.
                 </p>
@@ -77,7 +84,7 @@
         <!-- benefici -->
         <section>
             <div class="container bgColorViolet flex column">
-                <h2 class="center marginTop2rem marginBottom2rem colorWhite">
+                <h2 class="center fontSize2rem marginTop2rem marginBottom2rem colorWhite">
                     Benefits of working with us
                 </h2>
                 <div class="benefits col-100 marginBottom1rem"></div>
@@ -92,7 +99,7 @@
         <section>
             <div class="container flex column">
                 <div class="text">
-                    <h2 class="marginTop2rem marginBottom2rem colorViolet">
+                    <h2 class="fontSize2rem marginTop2rem marginBottom2rem colorViolet">
                         About Us
                     </h2>
                     <p class="marginBottom3rem">
@@ -118,27 +125,32 @@
         </section>
         <!-- inizia -->
         <section>
-            <div class="container flex started wrap">
-                <h4>GET STARTED</h4>
-                <h3>Simple, Transparent, Pricing</h3>
-                <h2>It's Free!</h2>
-                <p>
+            <div class="container bgColorViolet flex column started">
+                <h4 class="center colorWhite font-400">GET STARTED</h4>
+                <h3 class="center colorWhite marginBottom2rem marginTop2rem fontSize1-5rem">Simple, Transparent, Pricing</h3>
+                <h2 class="center fontSize2-75rem colorYellow marginBottom2rem marginTop2rem">It's Free!</h2>
+                <p class="center colorWhite line-heigte1-5rem marginBottom2rem">
                     Weye still in beta and we will be for awhile.
                     As we add more functionality. weu look Into
                     other plans with more controls.
                 </p>
-                <button><a href="#">Get Started</a></button>
-                <small>Copyright 2021 Boolean • Classe XX • <a href="#">Privacy policy</a></small>
+                <button class="buttonStarted marginBottom2rem col-80"><a class="textDecorationNot colorViolet" href="#">Get Started</a></button>
+                <small class="colorWhite">Copyright 2021 Boolean • Classe XX • <a class="colorWhite" href="#">Privacy policy</a></small>
             </div>
         </section>
     </main>
     <!-- footer -->
     <footer>
-        <div class="container center bgColorBlack colorWhite">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rerum modi in dolorum ratione nihil impedit dignissimos obcaecati? Odio, esse. Consectetur voluptas suscipit incidunt assumenda praesentium neque iusto impedit quo.</p>
-            <a href="#">Lorem ipsum</a>
-            <span>amet consectetur adipisicing elit</span>
-            <a href="#">Boolean careers</a>
+        <div class="container footer flex column bgColorBlack colorWhite">
+            <small class="center marginBottom3rem">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis rerum modi in dolorum ratione nihil impedit dignissimos obcaecati? Odio, esse. Consectetur voluptas suscipit incidunt assumenda praesentium neque iusto impedit quo.
+            </small>
+            <small class="center">
+                <a class="colorViolet" href="#">Lorem ipsum</a>amet consectetur adipisicing elit
+            </small>
+            <small class="center">
+                <a class="colorViolet" href="#">Boolean careers</a>
+            </small>
         </div>
     </footer>
     
