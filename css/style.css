@@ -1,0 +1,126 @@
+/* HEADER */
+
+.navBar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.navBar > .link i{
+    font-size: 2rem;
+}
+
+/* MAIN */
+
+
+.container{
+    margin: 0 auto;
+    padding: 2rem 2rem;
+}
+/* informazioni utili */
+.card, .bigCard {border-radius: 20px;}
+
+.bigCard{
+    margin-top: 3rem;
+}
+
+.card{
+    margin-top: 1.5rem;
+}
+
+/* strategie */
+
+.planning, .app{
+    border-radius: 20px;
+}
+
+/* testimonial */
+
+.partners{
+    border-radius: 20px;
+}
+
+/* benefici */
+
+.benefits{
+    border-radius: 20px;
+}
+
+/* chi siamo */
+
+
+/* inizia */
+
+.started{
+    justify-content: center; 
+}
+
+/* FOOTER */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************  
+        DEBUG
+*******************/
+
+.navBar{
+    height: 3rem;
+}
+
+.bigCard{
+    height: 610px;
+    border: 1px solid black;
+}
+
+.card{
+    height: 360px;
+    border: 1px solid black;
+
+}
+
+.planning{
+    height: 630px;
+    background-color: aqua;
+}
+
+.app{
+    height: 616px;
+    background-color: blue;
+}
+
+.partners{
+    height: 500px;
+    border: 1px solid black;
+}
+
+.benefits{
+    height: 400px;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.partner{
+    height: 460px;
+    background-color: red;
+    border: 1px solid black;
+}
