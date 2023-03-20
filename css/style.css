@@ -181,8 +181,10 @@ ________________ */
         width: 45%;
     }
 
+    
     .benefits{
-        width: calc(100% / 3 - 0.5em);
+        width: calc(100% / 3 - 2rem);
+        margin: 1rem;
     }
 }
 
