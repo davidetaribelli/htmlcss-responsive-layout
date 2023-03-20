@@ -28,18 +28,46 @@
 .card, .bigCard {border-radius: 20px;}
 
 .bigCard{
+    padding: 2rem 2rem 0 2rem;
     margin-top: 3rem;
+    line-height: 1.5rem;
 }
+
+.bigCard button{
+    padding: 1rem;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
 
 .card{
     margin-top: 1.5rem;
+    padding: 2rem 2rem 0 2rem;
+    line-height: 1.5rem;
 }
+
+.card i{
+    font-size: 5rem;
+}
+
+
 
 /* strategie */
 
 .planning, .app{
     border-radius: 20px;
+    padding: 1rem;
 }
+
+
+.icon{
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 100%;
+}
+
 
 /* testimonial */
 
@@ -91,11 +119,15 @@ ________________ */
 
 /* TABLET */
 
-@media screen and (min-width:480px) and (max-width:768px){
+@media screen and (min-width:481px) and (max-width:768px){
  .container:not(.testimonial .container, .started.container, .footer.container){
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+ }
+
+ .container{
+    gap: 0.5em;
  }
  
  .bigCard{
@@ -105,18 +137,19 @@ ________________ */
  }
 
  .card{
-    height:calc(100vw / 1.5);
+    height:calc(100vw / 1.5 - 0.5em);
     margin-top: 0;
     width: 30%; 
  }
 
  #big{
-    height: calc(100vw / 1.5);
+    height: calc(100vw / 1.5 - 0.5em);
     margin-bottom: 1rem;
  }
 
  .benefits{
-    width: calc(100% / 2 - 1rem);
+    width: calc(100% / 2 - 2rem);
+    margin: 1rem;
  }
 
 .text{
@@ -124,7 +157,7 @@ ________________ */
 }
 
 .partner{
- width: 40%;
+ width: 30%;
  margin-top: 2rem;
 }
 
@@ -163,7 +196,6 @@ ________________ */
     .bigCard{
         padding: 1rem;
         width:66%;
-        height:343px;
         margin-bottom: 1rem;
     }
 
@@ -172,7 +204,6 @@ ________________ */
     }
     .card{
         width: calc(100% / 3 - 0.5em);
-        height: 343px;
         margin-top: 0;
         padding: 1rem;
     }
@@ -250,26 +281,8 @@ ________________ */
 *******************/
 
 
-/* .bigCard{
-    height: 610px;
-    border: 1px solid black;
-}
 
-.card{
-    height: 360px;
-    border: 1px solid black;
 
-} */
-
-.planning{
-    height: 630px;
-    background-color: aqua;
-}
-
-.app{
-    height: 630px;
-    background-color: blue;
-}
 
 .partners{
     height: 500px;
