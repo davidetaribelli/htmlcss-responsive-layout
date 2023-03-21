@@ -75,14 +75,24 @@
 .partners{
     border-radius: 20px;
     padding: 2rem;
+    justify-content: center;
 }
+
 
 .image{
-    max-width: 200px;
-    max-height: 200px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
 }
 
-.image img{border-radius: 50%;}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 1;
+    
+}
 
 /* benefici */
 
@@ -194,6 +204,12 @@ __________________*/
         margin-left: 3rem;
     }
 
+    .image {
+        width: 500px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
     .description h4{text-align: left;}
 
     /* benefits */
@@ -269,22 +285,29 @@ __________________*/
         padding: 1rem;
     }
 
+    .info h2{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+    }
+
     /* strategie */
     
-    .planning{width: 45%;
-        height: 100%;
+    .planning{
+        width: 45%;
     }
 
     .app{
-        justify-content: center;
-        display: flex;
+        width: 50%;
+        display: flex;        
         align-items: flex-end;
-        width: 50%;   
     }
 
     .contentApp{
         width: 50%;
         border-radius: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .iconStrategy{width: 10%;}
 
