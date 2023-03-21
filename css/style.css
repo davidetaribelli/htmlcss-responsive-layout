@@ -16,15 +16,15 @@
     border-style: none;
 }
 
-
 /* MAIN */
-
 
 .container{
     margin: 0 auto;
     padding: 2rem 2rem;
 }
+
 /* informazioni utili */
+
 .card, .bigCard {border-radius: 20px;}
 
 .bigCard{
@@ -68,9 +68,7 @@
     border-radius: 50%;
 }
 
-
 /* testimonial */
-
 
 .partners{
     border-radius: 20px;
@@ -82,12 +80,9 @@
     max-height: 200px;
 }
 
-.image img{
-    border-radius: 50%;
-}
+.image img{border-radius: 50%;}
 
 /* benefici */
-
 
 .benefits{
     border-radius: 20px;
@@ -100,16 +95,11 @@
     border-radius: 20px;
 }
 
-
 /* chi siamo */
 
-.text p{
-    line-height: 2rem;
-}
+.text p{line-height: 2rem;}
 
-.partner{
-    position: relative;
-}
+.partner{position: relative;}
 
 .partner button{
     border-style: none;
@@ -117,9 +107,7 @@
     border-radius: 20px;
 }
 
-.partner img{
-    border-radius: 50%;
-}
+.partner img{border-radius: 50%;}
 
 .icon{
     position: absolute;
@@ -158,7 +146,7 @@ ________________ */
 
 /*________________
 
-      TABLET 
+      TABLET (non funziona benissimo)
 __________________*/
 
 @media screen and (min-width:481px) and (max-width:768px){
@@ -169,7 +157,7 @@ __________________*/
     }
 
     .container{
-        width: 100%;
+        max-width: 768px;
         gap: 0.5em;
     }
 
@@ -182,8 +170,8 @@ __________________*/
     }
 
     .card{
-        margin-top: 0;
-        width: 32%; 
+        margin: 0;
+        width:calc(100% / 3 - 0.5em); 
     }
 
     #big{margin-bottom: 1rem;}
@@ -196,7 +184,6 @@ __________________*/
 
     .partners{display: flex;}
 
-
     .description{
         display: flex;
         flex-direction: column;
@@ -205,9 +192,8 @@ __________________*/
 
     .description h4{text-align: left;}
 
-
-    
     /* benefits */
+
     .benefits{
         width: calc(100% / 2 - 2rem);
         margin: 1rem;
@@ -244,8 +230,8 @@ __________________*/
     }
 
     .container{
-        padding: 4rem 24.5rem;
-        gap: 1em;
+        max-width: 1500px;
+        gap: 0.5em;
     }
 
     /* main */
@@ -273,23 +259,15 @@ __________________*/
 
     /* strategie */
     
-    .planning{
-        width: 45%;
-    }
+    .planning{width: 45%;}
 
-    .app{
-        width: 45%;
-    }
+    .app{width: 45%;}
 
-    .iconStrategy{
-        width: 7%;
-    }
+    .iconStrategy{width: 7%;}
 
     /* testimonial */
 
-    .partners {
-        display: flex;
-    }
+    .partners {display: flex;}
 
     .description {
         display: flex;
@@ -297,10 +275,7 @@ __________________*/
         margin-left: 3rem;
     }
     
-    .description h4 {
-        text-align: left;
-    }
-
+    .description h4 {text-align: left;}
 
     /* benefici */
 
@@ -316,36 +291,22 @@ __________________*/
         align-items: flex-end;
     }
 
-    .partner{
-        width: 30%;
-    }
+    .partner{width: 30%;}
     
-    .text{
-        width: 60%;
-    }
+    .text{width: 60%;}
 
     /* inizia */
 
-    .started h3{
-        font-size: 2rem;
-    }
+    .started h3{font-size: 2rem;}
 
-    .started h2{
-        font-size: 4rem;
-    }
+    .started h2{font-size: 4rem;}
 
-    .started p{
-        padding: 0 14rem;
-    }
+    .started p{padding: 0 14rem;}
 
-    .started button{
-        width: 20%;
-    }
+    .started button{width: 20%;}
 
     /* footer */
 
-    footer small{
-        padding: 0 14rem;
-    }
+    footer small{padding: 0 14rem;}
 }
 
