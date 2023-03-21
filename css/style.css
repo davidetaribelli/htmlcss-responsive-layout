@@ -77,15 +77,34 @@
     padding: 2rem;
 }
 
-.partners img{
-    border-radius: 100%;
-    height: 50%;
+.image{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.image img{
+    display: inline;
+    margin: 0 auto;
+    margin-left: -25%;
+    height: 100%;
+    width: auto;
 }
 
 /* benefici */
 
 
 .benefits{
+    border-radius: 20px;
+    padding: 1rem;
+}
+
+.benefits button{
+    border-style: none;
+    padding: 1rem;
     border-radius: 20px;
 }
 
@@ -94,6 +113,26 @@
 
 .text p{
     line-height: 2rem;
+}
+
+.partner{
+    position: relative;
+}
+
+.partner button{
+    border-style: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+}
+
+.partner img{
+    border-radius: 50%;
+}
+
+.icon{
+    position: absolute;
+    top: 0;
+    left: 50%;
 }
 
 /* inizia */
@@ -143,13 +182,12 @@ ________________ */
  }
 
  .card{
-    height:calc(100vw / 1.5 - 0.5em);
+    
     margin-top: 0;
     width: 30%; 
  }
 
  #big{
-    height: calc(100vw / 1.5 - 0.5em);
     margin-bottom: 1rem;
  }
 
@@ -263,43 +301,3 @@ ________________ */
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/******************  
-        DEBUG
-*******************/
-
-
-.partners{
-    height: 500px;
-    border: 1px solid black;
-}
-
-.benefits{
-    height: 400px;
-    background-color: brown;
-    border: 1px solid black;
-}
-
-.partner{
-    height: 460px;
-    background-color: red;
-    border: 1px solid black;
-}
