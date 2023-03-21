@@ -161,6 +161,8 @@ __________________*/
         gap: 0.5em;
     }
 
+    /* MAIN */
+
     /* informazioni utili */
     
     .bigCard{
@@ -216,7 +218,7 @@ __________________*/
 
 @media screen and (min-width: 769px) {
 
-    /* navbar */
+    /* NAVBAR */
     .hamburger {display: none;}
 
     .link.none {display: inline-block;}
@@ -234,7 +236,7 @@ __________________*/
         gap: 0.5em;
     }
 
-    /* main */
+    /* MAIN */
 
     /* informazioni utili */
     .bigCard{
@@ -305,7 +307,7 @@ __________________*/
 
     .started button{width: 20%;}
 
-    /* footer */
+    /* FOOTER */
 
     footer small{padding: 0 14rem;}
 }
