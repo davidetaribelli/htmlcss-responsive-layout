@@ -31,6 +31,8 @@
     padding: 2rem 2rem 0 2rem;
     margin-top: 3rem;
     line-height: 1.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .bigCard button{
@@ -41,18 +43,17 @@
     margin-bottom: 1rem;
 }
 
-
 .card{
     margin-top: 1.5rem;
     padding: 2rem 2rem 0 2rem;
     line-height: 1.5rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .card i{
     font-size: 5rem;
 }
-
-
 
 /* strategie */
 
@@ -61,11 +62,10 @@
     padding: 1rem;
 }
 
-
-.icon{
+.iconStrategy{
     margin: 1rem auto;
     padding: 0.5rem;
-    border-radius: 100%;
+    border-radius: 50%;
 }
 
 
@@ -78,20 +78,12 @@
 }
 
 .image{
-    width: 200px;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
-    display: inline-block;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 .image img{
-    display: inline;
-    margin: 0 auto;
-    margin-left: -25%;
-    height: 100%;
-    width: auto;
+    border-radius: 50%;
 }
 
 /* benefici */
@@ -156,73 +148,94 @@
     align-items: center;
 }
 
+
+
 /* _______________
 
     MEDIA QUERY 
 ________________ */
 
 
-/* TABLET */
+/*________________
+
+      TABLET 
+__________________*/
 
 @media screen and (min-width:481px) and (max-width:768px){
- .container:not(.testimonial .container, .started.container, .footer.container){
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
- }
+    .container:not(.testimonial .container, .started.container, .footer.container){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
- .container{
-    gap: 0.5em;
- }
- 
- .bigCard{
-    margin-bottom: 1rem;
-    width: 65%;
-    margin-top: 0;
- }
+    .container{
+        width: 100%;
+        gap: 0.5em;
+    }
 
- .card{
+    /* informazioni utili */
     
-    margin-top: 0;
-    width: 30%; 
- }
+    .bigCard{
+        margin-bottom: 1rem;
+        width: 65%;
+        margin-top: 0;
+    }
 
- #big{
-    margin-bottom: 1rem;
- }
+    .card{
+        margin-top: 0;
+        width: 32%; 
+    }
 
- .benefits{
-    width: calc(100% / 2 - 2rem);
-    margin: 1rem;
- }
+    #big{margin-bottom: 1rem;}
 
-.text{
-    width: 60%;
+    /* strategie */
+
+    .iconStrategy{width: 6%;}
+
+    /* testimonial */
+
+    .partners{display: flex;}
+
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+
+    .description h4{text-align: left;}
+
+
+    
+    /* benefits */
+    .benefits{
+        width: calc(100% / 2 - 2rem);
+        margin: 1rem;
+    }
+
+    .text{width: 60%;}
+
+    .partner{
+    width: 30%;
+    margin-top: 2rem;
+    }
+
 }
 
-.partner{
- width: 30%;
- margin-top: 2rem;
-}
 
-}
+/*________________
 
-/* DESKTOP */
+      DESKTOP 
+__________________*/
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
 
     /* navbar */
-    .hamburger {
-        display: none;
-    }
+    .hamburger {display: none;}
 
-    .link.none {
-        display: inline-block;
-    }
+    .link.none {display: inline-block;}
 
-    .link.none a {
-        margin: 0.5rem;
-    }
+    .link.none a {margin: 0.5rem;}
 
     .container:not(.testimonial .container, .started.container, .footer.container) {
         flex-direction: row;    
@@ -232,26 +245,34 @@ ________________ */
 
     .container{
         padding: 4rem 24.5rem;
-        gap: 0.5em;
+        gap: 1em;
     }
 
     /* main */
 
+    /* informazioni utili */
     .bigCard{
-        padding: 1rem;
-        width:66%;
-        margin-bottom: 1rem;
+        flex-direction: row;
+        flex-wrap:nowrap ;
+        padding: 1rem 1rem 0 1rem;
+        width:65%;
+        margin-top: 0;
     }
 
-    #big{
-        margin-top: 3rem;
+    .bigCard img{
+        width: 100%;
+        margin-bottom: 0;
+        vertical-align: bottom;
     }
+  
     .card{
-        width: calc(100% / 3 - 0.5em);
+        width: calc(100% / 3 - 1em);
         margin-top: 0;
         padding: 1rem;
     }
 
+    /* strategie */
+    
     .planning{
         width: 45%;
     }
@@ -260,10 +281,35 @@ ________________ */
         width: 45%;
     }
 
+    .iconStrategy{
+        width: 7%;
+    }
+
+    /* testimonial */
+
+    .partners {
+        display: flex;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        margin-left: 3rem;
+    }
+    
+    .description h4 {
+        text-align: left;
+    }
+
+
+    /* benefici */
+
     .benefits{
         width: calc(100% / 3 - 2rem);
         margin: 1rem;
     }
+
+    /* chi siamo */
 
     .about .container{
         flex-direction: row;
@@ -277,6 +323,8 @@ ________________ */
     .text{
         width: 60%;
     }
+
+    /* inizia */
 
     .started h3{
         font-size: 2rem;

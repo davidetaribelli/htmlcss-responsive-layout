@@ -32,35 +32,52 @@
     <!-- main -->
     <main>
         <!-- informazioni utli -->
-        <section>
+        <section class="info">
             <div class="container col-100 flex column">
-                <div class="bigCard bgColorLightBlue col-100 center">
-                    <h2 class="colorBlue">Get a demo application</h2>
-                    <p class="marginBottom2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit Ratione nobis, architecto ad dolore quod, facere totam was recusandæ blanditiis.</p>
-                    <button class="col-80 bgColorBlue colorWhite">
-                        <i class="fa-brands fa-apple"></i>
-                        App Store
-                    </button>
-                    <img class="col-100 block" src="./img/phone.png" alt="phone">
+                <div class="bigCard bgColorLightBlue col-100 flex column wrap center">
+                    <div class="textInfo col-100">
+                        <h2 class="colorBlue">Get a demo application</h2>
+                        <p class="marginBottom2rem">Lorem ipsum dolor sit amet consectetur adipisicing elit Ratione nobis, architecto ad dolore quod, facere totam was recusandæ blanditiis.</p>
+                        <div class="buttonInfo">
+                            <button class="col-100 bgColorBlue colorWhite">
+                                <i class="fa-brands fa-apple"></i>
+                                App Store
+                            </button>
+                        </div>
+                    </div>
+                    <div class="imgInfo col-100">
+                        <img class="col-100 block" src="./img/phone.png" alt="phone">
+                    </div>
                 </div>
                 <div id="big" class="card colorBlue bgColorLightBlue col-100 center">
-                    <i class="fa-solid fa-file-code"></i>
-                    <h2 class="marginBottom1rem marginTop1rem">Clean Code</h2>
-                    <p class="colorGrey">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio nam expedita ducimus necessitatibus maiores ipsum autem dolorum in voluptates enim, impedit, consectetur laudantium eos nesciunt exercitationem sed aliquid. Rerum?
-                    </p>
+                    <div class="iconInfo col-100">
+                        <i class="fa-solid fa-file-code"></i>
+                    </div>
+                    <div class="col-100">
+                        <h2 class="marginBottom1rem marginTop1rem">Clean Code</h2>
+                        <p class="colorGrey">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio nam expedita ducimus necessitatibus maiores ipsum autem dolorum in voluptates enim, impedit, consectetur laudantium eos nesciunt exercitationem sed aliquid. Rerum?
+                        </p>
+                    </div>
                 </div>
                 <div class="card colorBlue bgColorLightBlue col-100 center">
-                    <i class="fa-solid fa-compass-drafting"></i>
-                    <h2 class="marginBottom1rem marginTop1rem">Web Desgin</h2>
-                    <p class="colorGrey">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio nam expedita ducimus necessitatibus maiores
-                        ipsum autem dolorum in voluptates enim, impedit, consectetur laudantium eos nesciunt exercitationem sed aliquid.
-                        Rerum?
-                    </p>
+                    <div class="iconInfo col-100">
+                        <i class="fa-solid fa-compass-drafting"></i>
+                    </div>
+                    <div class="col-100">
+                        <h2 class="marginBottom1rem marginTop1rem">Web Desgin</h2>
+                        <p class="colorGrey">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio nam expedita ducimus necessitatibus maiores
+                            ipsum autem dolorum in voluptates enim, impedit, consectetur laudantium eos nesciunt exercitationem sed aliquid.
+                            Rerum?
+                        </p>  
+                    </div>
                 </div>
                 <div class="card colorBlue bgColorLightBlue col-100 center">
-                    <i class="fa-solid fa-laptop-code"></i>
+                    <div class="iconInfo col-100">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    
                     <h2 class="marginBottom1rem marginTop1rem">Developement</h2>
                     <p class="colorGrey">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio nam expedita ducimus necessitatibus maiores
@@ -68,8 +85,10 @@
                         Rerum?
                     </p>
                 </div>
-                <div class="card colorBlue bgColorLightBlue col-100 center">
-                    <i class="fa-solid fa-bullhorn"></i>
+                <div class="card colorBlue bgColorLightBlue col-100 flex column wrap center">
+                    <div class="iconInfo col-100">
+                        <i class="fa-solid fa-bullhorn"></i>
+                    </div>
                     <h2 class="marginBottom1rem marginTop1rem">Branding</h2>
                     <p class="colorGrey">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto odio nam expedita ducimus necessitatibus maiores
@@ -96,7 +115,7 @@
                         targeted customers without any
                         interruption.
                     </em>
-                    <div class="icon col-10 center marginTop2rem bgColorViolet">
+                    <div class="iconStrategy col-10 center marginTop2rem bgColorViolet">
                         <i class="fa-solid fa-arrow-down-long"></i>
                     </div>
                 </div>
@@ -112,49 +131,55 @@
                 </p>
                 <div class="partners marginBottom1rem col-100 bgColorViolet center">
                     <div class="image">
-                        <img src="./img/testimonial1.jpg" alt="testimonial1">
+                        <img class="col-100" src="./img/testimonial1.jpg" alt="testimonial1">
                     </div>
-                    <p class="colorWhite marginTop2rem line-heigte1-5rem">
-                        <i class="fa-solid fa-quote-left"></i>
-                        Vitae suscipit tellus mauris a
-                        diam maecenas sed enim ut.
-                        Mauris augue neque gravida in
-                        fermenturn. Praesent semper
-                        feugiat nibh pulvinar proin.
-                        <i class="fa-solid fa-quote-right"></i>
-                    </p>
-                    <h4 class="colorWhite marginTop2rem">NAT REYNOLDS</h4>
+                    <div class="description">
+                        <p class="colorWhite marginTop2rem line-heigte1-5rem">
+                            <i class="fa-solid fa-quote-left"></i>
+                            Vitae suscipit tellus mauris a
+                            diam maecenas sed enim ut.
+                            Mauris augue neque gravida in
+                            fermenturn. Praesent semper
+                            feugiat nibh pulvinar proin.
+                            <i class="fa-solid fa-quote-right"></i>
+                        </p>
+                        <h4 class="colorWhite marginTop2rem">NAT REYNOLDS</h4>
+                    </div>
                 </div>
                 <div class="partners marginBottom1rem col-100 bgColorViolet center">
                     <div class="image">
-                        <img src="./img/testimonial2.jpg" alt="testimonial2">
+                        <img class="col-100" src="./img/testimonial2.jpg" alt="testimonial2">
                     </div>
-                    <p class="colorWhite marginTop2rem line-heigte1-5rem">
-                        <i class="fa-solid fa-quote-left"></i>
-                        Pharetra vet turpis nunc
-                        lorcm. Quisque id diam vel
-                        quarn elementurn pulvinar
-                        etiam- Urna porttitor rhoncus
-                        dolor purus non enim pracsent
-                        elementurn.
-                        <i class="fa-solid fa-quote-right"></i>
-                    </p>
-                    <h4 class="colorWhite marginTop2rem">CELIA ALMEDA</h4>
+                    <div class="description">
+                        <p class="colorWhite marginTop2rem line-heigte1-5rem">
+                            <i class="fa-solid fa-quote-left"></i>
+                            Pharetra vet turpis nunc
+                            lorcm. Quisque id diam vel
+                            quarn elementurn pulvinar
+                            etiam- Urna porttitor rhoncus
+                            dolor purus non enim pracsent
+                            elementurn.
+                            <i class="fa-solid fa-quote-right"></i>
+                        </p>
+                        <h4 class="colorWhite marginTop2rem">CELIA ALMEDA</h4>
+                    </div>
                 </div>
                 <div class="partners col-100 bgColorViolet center">
                     <div class="image">
-                        <img src="./img/testimonial3.jpg" alt="testimonial3">
+                        <img class="col-100" src="./img/testimonial3.jpg" alt="testimonial3">
                     </div>
-                    <p class="colorWhite marginTop2rem line-heigte1-5rem">
-                        <i class="fa-solid fa-quote-left"></i>
-                        Mauris augue neque gravida
-                        in fermentum. Praesent semper
-                        feugiat nibh sed pulvinar proin.
-                        Nibh nisl condimentum id
-                        venenatis a condimentum.
-                        <i class="fa-solid fa-quote-right"></i>
-                    </p>
-                    <h4 class="colorWhite marginTop2rem">BOB ROBERTS</h4>
+                    <div class="description">
+                        <p class="colorWhite marginTop2rem line-heigte1-5rem">
+                            <i class="fa-solid fa-quote-left"></i>
+                            Mauris augue neque gravida
+                            in fermentum. Praesent semper
+                            feugiat nibh sed pulvinar proin.
+                            Nibh nisl condimentum id
+                            venenatis a condimentum.
+                            <i class="fa-solid fa-quote-right"></i>
+                        </p>
+                        <h4 class="colorWhite marginTop2rem">BOB ROBERTS</h4>
+                    </div>
                 </div>
             </div>
         </section>
