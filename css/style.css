@@ -62,6 +62,8 @@
     padding: 1rem;
 }
 
+.contentApp{padding: 1rem;}
+
 .iconStrategy{
     margin: 1rem auto;
     padding: 0.5rem;
@@ -167,7 +169,7 @@ __________________*/
     
     .bigCard{
         margin-bottom: 1rem;
-        width: calc(100% / 3) * 2 - 0.5em;
+        width: 65%;
         margin-top: 0;
     }
 
@@ -198,8 +200,7 @@ __________________*/
 
     .benefits{
         width: calc(100% / 2 - 2rem);
-        margin: 1rem;
-        
+        margin: 1rem;  
     }
 
     .text{width: 60%;}
@@ -220,6 +221,10 @@ __________________*/
 @media screen and (min-width: 769px) {
 
     /* NAVBAR */
+    .navBar{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
     .hamburger {display: none;}
 
     .link.none {display: inline-block;}
@@ -248,6 +253,10 @@ __________________*/
         margin-top: 0;
     }
 
+    .bigCard h2, .bigCard p, .buttonInfo{
+        padding: 2rem;
+    }
+
     .bigCard img{
         width: 100%;
         margin-bottom: 0;
@@ -262,11 +271,22 @@ __________________*/
 
     /* strategie */
     
-    .planning{width: 45%;}
+    .planning{width: 45%;
+        height: 100%;
+    }
 
-    .app{width: 45%;}
+    .app{
+        justify-content: center;
+        display: flex;
+        align-items: flex-end;
+        width: 50%;   
+    }
 
-    .iconStrategy{width: 7%;}
+    .contentApp{
+        width: 50%;
+        border-radius: 20px;
+    }
+    .iconStrategy{width: 10%;}
 
     /* testimonial */
 
@@ -294,7 +314,7 @@ __________________*/
         align-items: flex-end;
     }
 
-    .partner{width: 30%;}
+    .partner{width: 20%}
     
     .text{width: 60%;}
 
