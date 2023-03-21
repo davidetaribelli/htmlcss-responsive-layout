@@ -167,7 +167,7 @@ __________________*/
     
     .bigCard{
         margin-bottom: 1rem;
-        width: 65%;
+        width: calc(100% / 3) * 2 - 0.5em;
         margin-top: 0;
     }
 
@@ -199,6 +199,7 @@ __________________*/
     .benefits{
         width: calc(100% / 2 - 2rem);
         margin: 1rem;
+        
     }
 
     .text{width: 60%;}
